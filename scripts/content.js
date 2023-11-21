@@ -1,1 +1,1 @@
-console.log('content scripts')
+console.log("content scripts");

@@ -28,3 +28,10 @@ Features and updates:
 - [ ] extra
 - [ ] collecting query params
 - [ ] collecting other info for further use
+
+
+## Sequence
+
+1. Popup js is for event like click button etc
+2. Content js is for dom manupulation
+3. Backround js is for injecting script dynamically
