@@ -5,14 +5,15 @@
 
 ## Todos
 
-Initialization : 
+Initialization :
+
 - [x] menifest json
 - [x] icons
 - [x] popup html
 - [x] popup js
 - [x] content js
 
-Functional: 
+Functional:
 
 - [ ] acive tab html info
 - [ ] extracting the reviews
@@ -29,9 +30,20 @@ Features and updates:
 - [ ] collecting query params
 - [ ] collecting other info for further use
 
-
 ## Sequence
 
 1. Popup js is for event like click button etc
 2. Content js is for dom manupulation
 3. Backround js is for injecting script dynamically
+
+## DOM
+
+```js
+let profilePic = document.querySelector(
+  ".review-list .user-profile-image img[src]"
+).src;
+
+let clientUserName = document.querySelector(
+  ".review-list .reviewer-details .username"
+).innerText;
+```

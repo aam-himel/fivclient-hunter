@@ -36,3 +36,18 @@ body {}
     border-radius: 50%;
     background-color: blue;
 }
+
+.btn__sec {
+    width: 100%;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn {
+    padding: 10px 16px;
+    border-radius: 6px;
+    background-color: blue;
+    color: #fff;
+}
